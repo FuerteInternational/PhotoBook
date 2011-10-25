@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C01A60114576B1A00C1D01D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A60014576B1A00C1D01D /* UIKit.framework */; };
+		4C01A60314576B1A00C1D01D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A60214576B1A00C1D01D /* Foundation.framework */; };
+		4C01A60514576B1A00C1D01D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A60414576B1A00C1D01D /* CoreGraphics.framework */; };
+		4C01A60B14576B1A00C1D01D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C01A60914576B1A00C1D01D /* InfoPlist.strings */; };
+		4C01A60D14576B1A00C1D01D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C01A60C14576B1A00C1D01D /* main.m */; };
+		4C01A61114576B1A00C1D01D /* PBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C01A61014576B1A00C1D01D /* PBAppDelegate.m */; };
+		4C01A61414576B1A00C1D01D /* PBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C01A61314576B1A00C1D01D /* PBViewController.m */; };
+		4C01A63814576CF700C1D01D /* libFTLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A62514576CF700C1D01D /* libFTLibrary.a */; };
+		4C01A63914576CF700C1D01D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A62614576CF700C1D01D /* AddressBook.framework */; };
+		4C01A63A14576CF700C1D01D /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A62714576CF700C1D01D /* AddressBookUI.framework */; };
+		4C01A63B14576CF700C1D01D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A62814576CF700C1D01D /* AVFoundation.framework */; };
+		4C01A63C14576CF700C1D01D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A62914576CF700C1D01D /* CFNetwork.framework */; };
+		4C01A63D14576CF700C1D01D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A62A14576CF700C1D01D /* CoreData.framework */; };
+		4C01A63E14576CF700C1D01D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A62B14576CF700C1D01D /* CoreImage.framework */; };
+		4C01A63F14576CF700C1D01D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A62C14576CF700C1D01D /* CoreLocation.framework */; };
+		4C01A64014576CF700C1D01D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A62D14576CF700C1D01D /* CoreMedia.framework */; };
+		4C01A64114576CF700C1D01D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A62E14576CF700C1D01D /* CoreText.framework */; };
+		4C01A64214576CF700C1D01D /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A62F14576CF700C1D01D /* libxml2.dylib */; };
+		4C01A64314576CF700C1D01D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A63014576CF700C1D01D /* libz.dylib */; };
+		4C01A64414576CF700C1D01D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A63114576CF700C1D01D /* MapKit.framework */; };
+		4C01A64514576CF700C1D01D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A63214576CF700C1D01D /* MessageUI.framework */; };
+		4C01A64614576CF700C1D01D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A63314576CF700C1D01D /* MobileCoreServices.framework */; };
+		4C01A64714576CF700C1D01D /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A63414576CF700C1D01D /* OpenAL.framework */; };
+		4C01A64814576CF700C1D01D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A63514576CF700C1D01D /* QuartzCore.framework */; };
+		4C01A64914576CF700C1D01D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A63614576CF700C1D01D /* SystemConfiguration.framework */; };
+		4C01A64A14576CF700C1D01D /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A63714576CF700C1D01D /* Twitter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C01A5FC14576B1A00C1D01D /* PhotoBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C01A60014576B1A00C1D01D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C01A60214576B1A00C1D01D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C01A60414576B1A00C1D01D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C01A60814576B1A00C1D01D /* PhotoBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoBook-Info.plist"; sourceTree = "<group>"; };
+		4C01A60A14576B1A00C1D01D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C01A60C14576B1A00C1D01D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C01A60E14576B1A00C1D01D /* PhotoBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoBook-Prefix.pch"; sourceTree = "<group>"; };
+		4C01A60F14576B1A00C1D01D /* PBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBAppDelegate.h; sourceTree = "<group>"; };
+		4C01A61014576B1A00C1D01D /* PBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBAppDelegate.m; sourceTree = "<group>"; };
+		4C01A61214576B1A00C1D01D /* PBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBViewController.h; sourceTree = "<group>"; };
+		4C01A61314576B1A00C1D01D /* PBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBViewController.m; sourceTree = "<group>"; };
+		4C01A62514576CF700C1D01D /* libFTLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFTLibrary.a; path = "DerivedData/RunMe/Build/Products/Debug-iphoneos/libFTLibrary.a"; sourceTree = "<group>"; };
+		4C01A62614576CF700C1D01D /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		4C01A62714576CF700C1D01D /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		4C01A62814576CF700C1D01D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4C01A62914576CF700C1D01D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4C01A62A14576CF700C1D01D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4C01A62B14576CF700C1D01D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		4C01A62C14576CF700C1D01D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4C01A62D14576CF700C1D01D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4C01A62E14576CF700C1D01D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		4C01A62F14576CF700C1D01D /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		4C01A63014576CF700C1D01D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4C01A63114576CF700C1D01D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4C01A63214576CF700C1D01D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4C01A63314576CF700C1D01D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4C01A63414576CF700C1D01D /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		4C01A63514576CF700C1D01D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4C01A63614576CF700C1D01D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4C01A63714576CF700C1D01D /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C01A5F914576B1A00C1D01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C01A63814576CF700C1D01D /* libFTLibrary.a in Frameworks */,
+				4C01A63914576CF700C1D01D /* AddressBook.framework in Frameworks */,
+				4C01A63A14576CF700C1D01D /* AddressBookUI.framework in Frameworks */,
+				4C01A63B14576CF700C1D01D /* AVFoundation.framework in Frameworks */,
+				4C01A63C14576CF700C1D01D /* CFNetwork.framework in Frameworks */,
+				4C01A63D14576CF700C1D01D /* CoreData.framework in Frameworks */,
+				4C01A63E14576CF700C1D01D /* CoreImage.framework in Frameworks */,
+				4C01A63F14576CF700C1D01D /* CoreLocation.framework in Frameworks */,
+				4C01A64014576CF700C1D01D /* CoreMedia.framework in Frameworks */,
+				4C01A64114576CF700C1D01D /* CoreText.framework in Frameworks */,
+				4C01A64214576CF700C1D01D /* libxml2.dylib in Frameworks */,
+				4C01A64314576CF700C1D01D /* libz.dylib in Frameworks */,
+				4C01A64414576CF700C1D01D /* MapKit.framework in Frameworks */,
+				4C01A64514576CF700C1D01D /* MessageUI.framework in Frameworks */,
+				4C01A64614576CF700C1D01D /* MobileCoreServices.framework in Frameworks */,
+				4C01A64714576CF700C1D01D /* OpenAL.framework in Frameworks */,
+				4C01A64814576CF700C1D01D /* QuartzCore.framework in Frameworks */,
+				4C01A64914576CF700C1D01D /* SystemConfiguration.framework in Frameworks */,
+				4C01A64A14576CF700C1D01D /* Twitter.framework in Frameworks */,
+				4C01A60114576B1A00C1D01D /* UIKit.framework in Frameworks */,
+				4C01A60314576B1A00C1D01D /* Foundation.framework in Frameworks */,
+				4C01A60514576B1A00C1D01D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C01A5F114576B1A00C1D01D = {
+			isa = PBXGroup;
+			children = (
+				4C01A60614576B1A00C1D01D /* PhotoBook */,
+				4C01A60714576B1A00C1D01D /* Supporting Files */,
+				4C01A5FF14576B1A00C1D01D /* Frameworks */,
+				4C01A5FD14576B1A00C1D01D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C01A5FD14576B1A00C1D01D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C01A5FC14576B1A00C1D01D /* PhotoBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C01A5FF14576B1A00C1D01D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C01A62514576CF700C1D01D /* libFTLibrary.a */,
+				4C01A62614576CF700C1D01D /* AddressBook.framework */,
+				4C01A62714576CF700C1D01D /* AddressBookUI.framework */,
+				4C01A62814576CF700C1D01D /* AVFoundation.framework */,
+				4C01A62914576CF700C1D01D /* CFNetwork.framework */,
+				4C01A62A14576CF700C1D01D /* CoreData.framework */,
+				4C01A62B14576CF700C1D01D /* CoreImage.framework */,
+				4C01A62C14576CF700C1D01D /* CoreLocation.framework */,
+				4C01A62D14576CF700C1D01D /* CoreMedia.framework */,
+				4C01A62E14576CF700C1D01D /* CoreText.framework */,
+				4C01A62F14576CF700C1D01D /* libxml2.dylib */,
+				4C01A63014576CF700C1D01D /* libz.dylib */,
+				4C01A63114576CF700C1D01D /* MapKit.framework */,
+				4C01A63214576CF700C1D01D /* MessageUI.framework */,
+				4C01A63314576CF700C1D01D /* MobileCoreServices.framework */,
+				4C01A63414576CF700C1D01D /* OpenAL.framework */,
+				4C01A63514576CF700C1D01D /* QuartzCore.framework */,
+				4C01A63614576CF700C1D01D /* SystemConfiguration.framework */,
+				4C01A63714576CF700C1D01D /* Twitter.framework */,
+				4C01A60014576B1A00C1D01D /* UIKit.framework */,
+				4C01A60214576B1A00C1D01D /* Foundation.framework */,
+				4C01A60414576B1A00C1D01D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C01A60614576B1A00C1D01D /* PhotoBook */ = {
+			isa = PBXGroup;
+			children = (
+				4C01A64F14576D5000C1D01D /* Data */,
+				4C01A64E14576D4600C1D01D /* Libs */,
+				4C01A64D14576D3E00C1D01D /* Views */,
+				4C01A64B14576D1400C1D01D /* Controllers */,
+				4C01A60F14576B1A00C1D01D /* PBAppDelegate.h */,
+				4C01A61014576B1A00C1D01D /* PBAppDelegate.m */,
+			);
+			path = PhotoBook;
+			sourceTree = "<group>";
+		};
+		4C01A60714576B1A00C1D01D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C01A60814576B1A00C1D01D /* PhotoBook-Info.plist */,
+				4C01A60914576B1A00C1D01D /* InfoPlist.strings */,
+				4C01A60C14576B1A00C1D01D /* main.m */,
+				4C01A60E14576B1A00C1D01D /* PhotoBook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = PhotoBook;
+			sourceTree = "<group>";
+		};
+		4C01A64B14576D1400C1D01D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C01A64C14576D2500C1D01D /* Basic */,
+				4C01A65414576D9900C1D01D /* Intro */,
+				4C01A65314576D9000C1D01D /* Preloader */,
+				4C01A65214576D8400C1D01D /* Template selector */,
+				4C01A65114576D7000C1D01D /* Template designer */,
+				4C01A65014576D5B00C1D01D /* Home */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4C01A64C14576D2500C1D01D /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				4C01A61214576B1A00C1D01D /* PBViewController.h */,
+				4C01A61314576B1A00C1D01D /* PBViewController.m */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		4C01A64D14576D3E00C1D01D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4C01A64E14576D4600C1D01D /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		4C01A64F14576D5000C1D01D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		4C01A65014576D5B00C1D01D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		4C01A65114576D7000C1D01D /* Template designer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Template designer";
+			sourceTree = "<group>";
+		};
+		4C01A65214576D8400C1D01D /* Template selector */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Template selector";
+			sourceTree = "<group>";
+		};
+		4C01A65314576D9000C1D01D /* Preloader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Preloader;
+			sourceTree = "<group>";
+		};
+		4C01A65414576D9900C1D01D /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C01A5FB14576B1A00C1D01D /* PhotoBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C01A61A14576B1A00C1D01D /* Build configuration list for PBXNativeTarget "PhotoBook" */;
+			buildPhases = (
+				4C01A5F814576B1A00C1D01D /* Sources */,
+				4C01A5F914576B1A00C1D01D /* Frameworks */,
+				4C01A5FA14576B1A00C1D01D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBook;
+			productName = PhotoBook;
+			productReference = 4C01A5FC14576B1A00C1D01D /* PhotoBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C01A5F314576B1A00C1D01D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4C01A5F614576B1A00C1D01D /* Build configuration list for PBXProject "PhotoBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C01A5F114576B1A00C1D01D;
+			productRefGroup = 4C01A5FD14576B1A00C1D01D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C01A5FB14576B1A00C1D01D /* PhotoBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C01A5FA14576B1A00C1D01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C01A60B14576B1A00C1D01D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C01A5F814576B1A00C1D01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C01A60D14576B1A00C1D01D /* main.m in Sources */,
+				4C01A61114576B1A00C1D01D /* PBAppDelegate.m in Sources */,
+				4C01A61414576B1A00C1D01D /* PBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C01A60914576B1A00C1D01D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C01A60A14576B1A00C1D01D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C01A61814576B1A00C1D01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../FTLibrary/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "../FTLibrary/**";
+			};
+			name = Debug;
+		};
+		4C01A61914576B1A00C1D01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../FTLibrary/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "../FTLibrary/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C01A61B14576B1A00C1D01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoBook/PhotoBook-Prefix.pch";
+				INFOPLIST_FILE = "PhotoBook/PhotoBook-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/DerivedData/RunMe/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C01A61C14576B1A00C1D01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoBook/PhotoBook-Prefix.pch";
+				INFOPLIST_FILE = "PhotoBook/PhotoBook-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/DerivedData/RunMe/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C01A5F614576B1A00C1D01D /* Build configuration list for PBXProject "PhotoBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C01A61814576B1A00C1D01D /* Debug */,
+				4C01A61914576B1A00C1D01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C01A61A14576B1A00C1D01D /* Build configuration list for PBXNativeTarget "PhotoBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C01A61B14576B1A00C1D01D /* Debug */,
+				4C01A61C14576B1A00C1D01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C01A5F314576B1A00C1D01D /* Project object */;
+}
