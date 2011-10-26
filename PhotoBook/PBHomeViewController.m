@@ -46,6 +46,8 @@
 
 - (void)didClickBookButton:(UIButton *)sender {
 	PBPageDesignerViewController *c = [[PBPageDesignerViewController alloc] init];
+	[c setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+	[self presentModalViewController:c animated:YES];
 }
 
 #pragma mark View lifecycle
