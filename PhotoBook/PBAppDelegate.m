@@ -3,24 +3,31 @@
 //  PhotoBook
 //
 //  Created by Ondrej Rafaj on 25/10/2011.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2011 Fuerte International. All rights reserved.
 //
 
 #import "PBAppDelegate.h"
+#import "PBPreloadViewController.h"
 
-#import "PBViewController.h"
 
 @implementation PBAppDelegate
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
 
+
+#pragma mark App delegate methods
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-	self.viewController = [[PBViewController alloc] initWithNibName:@"PBViewController" bundle:nil];
-	self.window.rootViewController = self.viewController;
+    
+	self.viewController = [[PBPreloadViewController alloc] init];
+	
+	UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+	[nc setNavigationBarHidden:YES];
+	
+	[self.window setRootViewController:nc];
     [self.window makeKeyAndVisible];
     return YES;
 }

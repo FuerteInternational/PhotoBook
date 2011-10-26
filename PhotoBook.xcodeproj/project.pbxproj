@@ -33,6 +33,12 @@
 		4C01A64814576CF700C1D01D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A63514576CF700C1D01D /* QuartzCore.framework */; };
 		4C01A64914576CF700C1D01D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A63614576CF700C1D01D /* SystemConfiguration.framework */; };
 		4C01A64A14576CF700C1D01D /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A63714576CF700C1D01D /* Twitter.framework */; };
+		4C01A65714576E0A00C1D01D /* PBPreloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C01A65614576E0A00C1D01D /* PBPreloadViewController.m */; };
+		4C01A65A14576E1F00C1D01D /* PBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C01A65914576E1F00C1D01D /* PBHomeViewController.m */; };
+		4C01A65C14576FBD00C1D01D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C01A65B14576FBD00C1D01D /* MediaPlayer.framework */; };
+		4C01A6721457FCFF00C1D01D /* PBTemplateDesignerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C01A6711457FCFF00C1D01D /* PBTemplateDesignerViewController.m */; };
+		4C01A6761457FD4100C1D01D /* PBPageDesignerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C01A6751457FD4100C1D01D /* PBPageDesignerViewController.m */; };
+		4C01A6791457FDC100C1D01D /* PBTemplateSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C01A6781457FDC100C1D01D /* PBTemplateSelectorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +73,17 @@
 		4C01A63514576CF700C1D01D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4C01A63614576CF700C1D01D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4C01A63714576CF700C1D01D /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		4C01A65514576E0A00C1D01D /* PBPreloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPreloadViewController.h; sourceTree = "<group>"; };
+		4C01A65614576E0A00C1D01D /* PBPreloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPreloadViewController.m; sourceTree = "<group>"; };
+		4C01A65814576E1F00C1D01D /* PBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBHomeViewController.h; sourceTree = "<group>"; };
+		4C01A65914576E1F00C1D01D /* PBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBHomeViewController.m; sourceTree = "<group>"; };
+		4C01A65B14576FBD00C1D01D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4C01A6701457FCFF00C1D01D /* PBTemplateDesignerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTemplateDesignerViewController.h; sourceTree = "<group>"; };
+		4C01A6711457FCFF00C1D01D /* PBTemplateDesignerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTemplateDesignerViewController.m; sourceTree = "<group>"; };
+		4C01A6741457FD4100C1D01D /* PBPageDesignerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPageDesignerViewController.h; sourceTree = "<group>"; };
+		4C01A6751457FD4100C1D01D /* PBPageDesignerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPageDesignerViewController.m; sourceTree = "<group>"; };
+		4C01A6771457FDC100C1D01D /* PBTemplateSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTemplateSelectorViewController.h; sourceTree = "<group>"; };
+		4C01A6781457FDC100C1D01D /* PBTemplateSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTemplateSelectorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C01A65C14576FBD00C1D01D /* MediaPlayer.framework in Frameworks */,
 				4C01A63814576CF700C1D01D /* libFTLibrary.a in Frameworks */,
 				4C01A63914576CF700C1D01D /* AddressBook.framework in Frameworks */,
 				4C01A63A14576CF700C1D01D /* AddressBookUI.framework in Frameworks */,
@@ -136,6 +154,7 @@
 				4C01A62F14576CF700C1D01D /* libxml2.dylib */,
 				4C01A63014576CF700C1D01D /* libz.dylib */,
 				4C01A63114576CF700C1D01D /* MapKit.framework */,
+				4C01A65B14576FBD00C1D01D /* MediaPlayer.framework */,
 				4C01A63214576CF700C1D01D /* MessageUI.framework */,
 				4C01A63314576CF700C1D01D /* MobileCoreServices.framework */,
 				4C01A63414576CF700C1D01D /* OpenAL.framework */,
@@ -182,6 +201,7 @@
 				4C01A65314576D9000C1D01D /* Preloader */,
 				4C01A65214576D8400C1D01D /* Template selector */,
 				4C01A65114576D7000C1D01D /* Template designer */,
+				4C01A6731457FD0500C1D01D /* Page designer */,
 				4C01A65014576D5B00C1D01D /* Home */,
 			);
 			name = Controllers;
@@ -220,6 +240,8 @@
 		4C01A65014576D5B00C1D01D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				4C01A65814576E1F00C1D01D /* PBHomeViewController.h */,
+				4C01A65914576E1F00C1D01D /* PBHomeViewController.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -227,6 +249,8 @@
 		4C01A65114576D7000C1D01D /* Template designer */ = {
 			isa = PBXGroup;
 			children = (
+				4C01A6701457FCFF00C1D01D /* PBTemplateDesignerViewController.h */,
+				4C01A6711457FCFF00C1D01D /* PBTemplateDesignerViewController.m */,
 			);
 			name = "Template designer";
 			sourceTree = "<group>";
@@ -234,6 +258,8 @@
 		4C01A65214576D8400C1D01D /* Template selector */ = {
 			isa = PBXGroup;
 			children = (
+				4C01A6771457FDC100C1D01D /* PBTemplateSelectorViewController.h */,
+				4C01A6781457FDC100C1D01D /* PBTemplateSelectorViewController.m */,
 			);
 			name = "Template selector";
 			sourceTree = "<group>";
@@ -241,6 +267,8 @@
 		4C01A65314576D9000C1D01D /* Preloader */ = {
 			isa = PBXGroup;
 			children = (
+				4C01A65514576E0A00C1D01D /* PBPreloadViewController.h */,
+				4C01A65614576E0A00C1D01D /* PBPreloadViewController.m */,
 			);
 			name = Preloader;
 			sourceTree = "<group>";
@@ -250,6 +278,15 @@
 			children = (
 			);
 			name = Intro;
+			sourceTree = "<group>";
+		};
+		4C01A6731457FD0500C1D01D /* Page designer */ = {
+			isa = PBXGroup;
+			children = (
+				4C01A6741457FD4100C1D01D /* PBPageDesignerViewController.h */,
+				4C01A6751457FD4100C1D01D /* PBPageDesignerViewController.m */,
+			);
+			name = "Page designer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +316,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Fuerte International";
 			};
 			buildConfigurationList = 4C01A5F614576B1A00C1D01D /* Build configuration list for PBXProject "PhotoBook" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -316,6 +354,11 @@
 				4C01A60D14576B1A00C1D01D /* main.m in Sources */,
 				4C01A61114576B1A00C1D01D /* PBAppDelegate.m in Sources */,
 				4C01A61414576B1A00C1D01D /* PBViewController.m in Sources */,
+				4C01A65714576E0A00C1D01D /* PBPreloadViewController.m in Sources */,
+				4C01A65A14576E1F00C1D01D /* PBHomeViewController.m in Sources */,
+				4C01A6721457FCFF00C1D01D /* PBTemplateDesignerViewController.m in Sources */,
+				4C01A6761457FD4100C1D01D /* PBPageDesignerViewController.m in Sources */,
+				4C01A6791457FDC100C1D01D /* PBTemplateSelectorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
