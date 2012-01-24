@@ -8,11 +8,17 @@
 
 #import "PBViewController.h"
 
-@interface PBHomeViewController : PBViewController
+@interface PBHomeViewController : PBViewController <UIScrollViewDelegate> {
+	
+	int currentPage;
+	
+}
 
 
 //@property (nonatomic, strong) UIScrollView *controlScrollView;
 @property (nonatomic, strong) UIScrollView *contentScrollView;
+@property (nonatomic, strong) NSMutableArray *contentScrollViewPages;
+@property (nonatomic, strong) UIPageControl *pageControl;
 
 
 @end

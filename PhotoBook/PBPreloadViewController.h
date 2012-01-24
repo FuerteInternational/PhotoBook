@@ -10,4 +10,7 @@
 
 @interface PBPreloadViewController : PBViewController
 
+@property (nonatomic, strong) UIImageView *centeredImage;
+
+
 @end

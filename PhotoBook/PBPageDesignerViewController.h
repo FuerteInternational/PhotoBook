@@ -10,9 +10,18 @@
 #import "FTPhotoCompositionView.h"
 
 
-@interface PBPageDesignerViewController : PBViewController
+@interface PBPageDesignerViewController : PBViewController <UIPageViewControllerDelegate> {
+	
+	BOOL isMenuEnabled;
+	BOOL isScaledDown;
+	
+}
 
+@property (strong, nonatomic) UIPageViewController *pageViewController;
 @property (nonatomic, strong) FTPhotoCompositionView *mainView;
+
+@property (nonatomic, strong) UIView *topMenu;
+@property (nonatomic, strong) UIView *bottomMenu;
 
 
 @end
